@@ -172,6 +172,3 @@ To delete all GCP instances:
 ```bash
 gcloud compute instances delete $(gcloud compute instances list --format="get(name)") --quiet
 ```
-
----
-### 🎯 **Congratulations! Your auto-scaling system is ready! 🚀**
